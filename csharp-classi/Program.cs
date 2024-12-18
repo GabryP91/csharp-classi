@@ -71,6 +71,8 @@ namespace csharp_classi
 
             stringa.Main();
 
+            StampaStringhe.StampaInOrdineInverso("oo","uu","ii");
+
             //ESERCIZIO 5
 
             Call numero = new Call();
@@ -281,7 +283,7 @@ namespace csharp_classi
         }
 
         // Metodo che stampa i parametri in ordine inverso
-        static void StampaInOrdineInverso(string primo, string secondo, string terzo)
+        public static void StampaInOrdineInverso(string primo, string secondo, string terzo)
         {
             Console.WriteLine("\nStampa delle stringhe");
             Console.WriteLine(terzo);
